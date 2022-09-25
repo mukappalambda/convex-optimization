@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "convex-optimization"
+version = "0.1.0"
+description = ""
+authors = ["mukappalambda <maokailan24@gmail.com>"]
+readme = "README.md"
+packages = [{include = "convex_optimization"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+cvxpy = "^1.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
